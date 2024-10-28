@@ -209,9 +209,6 @@ flowchart LR
   batcher[:kinesis batcher] --> bp2[batch processor 2] -->pp2[ExAws.Kinesis]
   batcher[:kinesis batcher] --> bpn[batch processor N] -->pp3[ExAws.Kinesis]
 ```
-## A note for folks getting started with Elixir
-
-[Elixir](https://elixir-lang.org)'s [getting started guide](https://elixir-lang.org/getting-started/introduction.html) is _really_ good!  In addition to that, [Elixir in Action](https://www.manning.com/books/elixir-in-action-second-edition) is a good resource (but keep in mind it was written for Elixir 1.7 and Elixir's currently at 1.13 and there have been some _major_ changes -- for example, Distillery is now pretty much replaced by [mix release](https://hexdocs.pm/mix/Mix.Tasks.Release.html)).  [Concurrent Data Processing in Elixir](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/) is pretty good, particularly with showcasing options to take into consideration, ie, stuff in your tool-box.
 
 ## License
 This project's source code and documentation are licensed under the MIT license. See the [LICENSE](LICENSE) file for details.
